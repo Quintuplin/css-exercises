@@ -24,3 +24,16 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  text-align: center;
+}
+
+.plantbox {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+}
