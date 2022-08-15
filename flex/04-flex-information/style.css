@@ -25,24 +25,22 @@ img {
   background: #eee;
 }
 
-.title {
+body {
   text-align: center;
 }
 
+.title {
+  margin-bottom: 32px;
+}
+
 .plantboxbox{
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  align-self: center;
+  justify-content: center;
+  gap: 52px;
 }
 
 .plantbox {
-  min-width: 100px;
   max-width: 200px;
-  display: block;
-  align-items: center;
 }
 
 .img {
