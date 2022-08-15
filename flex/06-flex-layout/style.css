@@ -28,6 +28,18 @@ input {
 
 /* solution */
 
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px;
+}
+
 .header {
   position: fixed;
   left: 0;
