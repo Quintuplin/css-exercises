@@ -25,3 +25,33 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* solution */
+
+.footer {
+  background: #eee;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
