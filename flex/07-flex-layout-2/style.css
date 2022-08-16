@@ -43,20 +43,21 @@ body {
 
 .sidebar {
   display: flex;
-  min-width: 300px;
-  max-width: 300px;
+  /* WHY WOULD THE SOLUTION DO THIS */
+  min-width: 332px;
+  max-width: 332px;
 }
 
 .cardbox {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
-  gap: 40px;
+  padding: 48px;
+  gap: 32px;
 }
 
 .card {
   min-width: 300px;
   max-width: 300px;
-  padding: 20px;
+  padding: 16px;
   gap: 20px;
 }
