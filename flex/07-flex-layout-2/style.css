@@ -32,7 +32,6 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .content {
@@ -43,7 +42,6 @@ body {
 
 .sidebar {
   display: flex;
-  /* WHY WOULD THE SOLUTION DO THIS */
   min-width: 332px;
   max-width: 332px;
 }
@@ -56,8 +54,21 @@ body {
 }
 
 .card {
-  min-width: 300px;
-  max-width: 300px;
+  width: 300px;
   padding: 16px;
   gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
