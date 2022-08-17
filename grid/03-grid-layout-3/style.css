@@ -96,8 +96,8 @@
   display: grid;
   /* does this even make a difference? */
   /* it seems to be ignoring their relative weights */
-  grid-template-columns: 2fr, 1fr;
-  grid-template-rows: 2fr, 1fr, 5fr, 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr 5fr 1fr;
   gap: 4px;
 }
 
@@ -134,7 +134,7 @@ ul {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr, 5fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 .header .menu {
