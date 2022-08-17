@@ -29,40 +29,28 @@ button {
 /* solution */
 
 .card {
-  /* WHYYYYYYYYY DOES THIS WORK THIS WAY */
-  /* SETTING THIS TO 8 GETS 16 */
-  /* SETTING THIS TO 1 GETS 9 */
-  /* SETTING THIS TO 0 GETS 0 */
-  /* SO THE ONLY WAY TO GET IT TO ACUTALLY PAD 8 */
-  /* IS TO FORCE CSS TO ROUND DOWN TO 8 */
-  /* SEND HELP */
-  padding-top: 0.1px;
-  padding-bottom: 0.1px;
-}
-
-.card > * {
   padding: 8px;
-  margin: 8px;
 }
 
 .title {
+  margin-top: 0;
+  margin-bottom: 8px;
   font-size: 16px;
+  padding: 8px;
 }
 
 .content {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
-.button-container > * {
-  /* LOOK I DON'T KNOW OKAY */
-  width: 100%;
-  padding: auto;
+.button-container {
+  text-align: center;
+  padding: 8px;
 }
 
 button {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
